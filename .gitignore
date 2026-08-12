@@ -1,0 +1,23 @@
+src/hydro_mcp/__pycache__/
+eval/__pycache__/
+__pycache__/
+
+.venv/
+
+# ignore everything in the test_responses folder
+tests/*
+!tests/
+!tests/*.py
+
+# ignore egg-info files 
+src/hydro_mcp.egg-info/
+
+# ignore secrets
+secrets/
+.env
+
+# ignore scripts 
+.databricks
+
+# ignore local docs 
+docs_local/
