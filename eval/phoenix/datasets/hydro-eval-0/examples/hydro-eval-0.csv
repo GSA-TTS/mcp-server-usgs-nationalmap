@@ -1,0 +1,12 @@
+query,responses
+"Using WGS84 coordinates, a location in downtown Denver, Colorado sits at latitude 39.7392, longitude -104.9903. What is the name of the HUC12 subwatershed that contains this point?","Cherry Creek-South Platte River"
+"The Gateway Arch in St. Louis, Missouri is located at approximately 38.6247, -90.1848 (latitude, longitude, WGS84). Which 12-digit hydrologic unit code (HUC12) does this point fall within?","071401010403"
+"Old Faithful geyser in Yellowstone National Park is at about 44.4605, -110.8281 (WGS84). What is the name of the HUC12 watershed containing this point?","Upper Firehole River"
+"Consider the bounding box with corners minLon=-91.22, minLat=30.42, maxLon=-91.16, maxLat=30.48 (WGS84), covering part of Baton Rouge, Louisiana along a major river. Among all NHD flowlines intersecting this box, what is the highest Strahler stream order present?","10"
+"Within the bounding box minLon=-111.60, minLat=36.855, maxLon=-111.58, maxLat=36.875 (WGS84) near Lees Ferry, Arizona, there is a single NHDPlus stream gage. What is that gage's station name?","PARIA RIVER AT LEES FERRY, AZ"
+"For the NHDPlus stream gage located within the bounding box minLon=-111.60, minLat=36.855, maxLon=-111.58, maxLat=36.875 (WGS84) near Lees Ferry, Arizona, what is the reported drainage area in square miles?","1410"
+"A point at 39.0968, -120.0324 (WGS84) lies within a large alpine lake on the California-Nevada border. According to NHD waterbody data, what is the GNIS name of that waterbody?","Lake Tahoe"
+"A point at 36.15, -114.42 (WGS84) lies within a large reservoir on the Colorado River. What is the GNIS name of the waterbody at that location according to NHD?","Lake Mead"
+"Starting from the HUC12 subwatershed that contains the point 30.45, -91.19 (WGS84) in Baton Rouge, Louisiana, to which downstream 12-digit hydrologic unit code does that subwatershed drain?","080702020804"
+"Examine NHD line features within the bounding box minLon=-79.08, minLat=43.07, maxLon=-79.06, maxLat=43.09 (WGS84) at a famous waterfall on the U.S.-Canada border. True or false: at least one line feature there is classified with a feature code whose label is ""Waterfall"".","True"
+"A point at 39.7392, -104.9903 (WGS84) in downtown Denver falls within a HUC12 subwatershed. What is that subwatershed's hydrologic unit type classification (the human-readable label of its HUType code)?","Standard"

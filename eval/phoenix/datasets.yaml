@@ -1,0 +1,11 @@
+# Dataset registry for Phoenix evaluation experiments
+# Each dataset maps to a CSV file with test questions and expected responses
+
+datasets:
+  hydro-eval-0:
+    csv_path: datasets/hydro-eval-0/examples/hydro-eval-0.csv
+    input_keys:
+      - query
+    output_keys:
+      - responses
+    description: "USGS NHDPlus HR hydrography evaluation with 11 geometry-based questions"
